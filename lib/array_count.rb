@@ -8,4 +8,4 @@ def count_empty_strings(array)
   array.count{|element| element.is_a?(String).size == 0}
 end
 
-p count_empty_strings()
+p count_empty_strings([ "", "Hello", 4, [], "", "" ])
