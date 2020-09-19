@@ -10,4 +10,4 @@ def count_empty_strings(array)
   end
 end
 
-count_empty_strings([ "", "Hello", 4, [], "", "" ])
+p count_empty_strings([ "", "Hello", 4, [], "", "" ])
