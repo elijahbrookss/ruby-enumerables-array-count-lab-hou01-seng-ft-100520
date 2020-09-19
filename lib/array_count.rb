@@ -6,9 +6,8 @@ end
 def count_empty_strings(array)
   # Return the total number of EMPTY strings in the provided array using the count enumerable
   array.count do |element| 
-    element.is_a?(String);
-    element.length == 0;
+    p element.is_a?(String);
   end
 end
 
-p count_empty_strings([ "", "Hello", 4, [], "", "" ])
+count_empty_strings([ "", "Hello", 4, [], "", "" ])
