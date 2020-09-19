@@ -9,5 +9,3 @@ def count_empty_strings(array)
     element.is_a?(String) and element.size == 0;
   end
 end
-
-p count_empty_strings([ "", "Hello", 4, [], "", "" ])
